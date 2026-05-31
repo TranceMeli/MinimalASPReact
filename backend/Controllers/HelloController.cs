@@ -1,0 +1,15 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace MinimalApp.Controllers
+{
+    [ApiController]
+    [Route("api[controller]")]
+    public class HelloController : Controller
+    {
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(new { message = "Hallo von ASP.NET Core!" });
+        }
+    }
+}

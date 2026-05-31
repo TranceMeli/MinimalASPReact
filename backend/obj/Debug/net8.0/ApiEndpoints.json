@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "MinimalApp.Controllers.HelloController",
+    "Method": "Get",
+    "RelativePath": "apiHello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
