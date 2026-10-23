@@ -3,13 +3,13 @@
 namespace MinimalApp.Controllers
 {
     [ApiController]
-    [Route("api[controller]")]
-    public class HelloController : Controller
+    [Route("api/[controller]")]
+    public class HelloController : ControllerBase
     {
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new { message = "Hallo von ASP.NET Core!" });
+            return Ok(new { message = "Hello from ASP.NET Core!" });
         }
     }
 }

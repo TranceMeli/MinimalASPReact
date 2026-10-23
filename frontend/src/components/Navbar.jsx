@@ -1,10 +1,11 @@
-import { Link } from 'react-router'
+import { NavLink } from 'react-router'
 
 function Navbar() {
   return (
-    <nav>
-      <Link to="/admin">Admin Dashboard</Link>
-      <Link to="/user">User Dashboard</Link>
+    <nav className="main-nav" aria-label="Main navigation">
+      <NavLink to="/" end>Home</NavLink>
+      <NavLink to="/about">About</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
     </nav>
   )
 }
